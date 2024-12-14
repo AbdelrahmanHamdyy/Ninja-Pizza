@@ -46,7 +46,7 @@
                 $errors['ingredients'] = 'Ingredients must be a comma separated list!'.'</br>';
             }
         }
-    } // end of the POST check
+    }
 
     if (!array_filter($errors)) { // Returns false if errors is empty
         if (!$flag) {
